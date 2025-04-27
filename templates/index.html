@@ -173,15 +173,6 @@
       document.body.appendChild(popupOverlay);
     }
     
-    const hospitalData = {
-      "Max Super Specialty Hospital": {
-        address: "Mussoorie Diversion Road, Dehradun, Uttarakhand, 248001",
-        specialties: "Radiology, Cardiac Care, Gynecology, Obstetrics, Dentistry"
-      },
-      // Add other hospitals similarly...
-    };
-
-    // Event listener for the drop-down selection
     document.getElementById("hospital-select").addEventListener("change", (event) => {
       const selectedHospital = event.target.value;
       if (selectedHospital) {
